@@ -64,6 +64,12 @@ h1{
     font-size:2em;
     text-align:center;
     padding:15px 0;
+    /* applying border */
+   /* border: black 3px dashed; /* always three values: colour / size / style */
+   border-style: dashed;
+   border-color: black;
+   border-width: 3px;
+   border-radius: 10px;
 }
 
 h2{
