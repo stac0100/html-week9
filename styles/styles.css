@@ -170,4 +170,24 @@ nav ul{
         margin: 0 auto; /* this will centre the container div once the browser window is 
         wider than the max width */
     }
+
+    /* make the main and sidebar sections sit next to each other */
+    main {
+        /*width: calc(70% - 40px);*/
+        width: 70%;
+        box-sizing: border-box; /* accounts for the padding in the width */
+        float: left;
+    }
+    aside {
+        width: calc(30% - 40px);
+        float: right;
+    }
+    footer {
+        clear: both; /* make the footer see the floated elements and go below them */
+    }
+    /* hide the hamburger button and turn the menu into a normal menu */
+    .hamburger{
+        display: none;
+    }
 }
+
