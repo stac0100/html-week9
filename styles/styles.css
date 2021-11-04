@@ -145,3 +145,29 @@ nav ul{
     z-index:10;
 }
 
+/**********************************************
+                Media Queries
+**********************************************/
+
+@media screen and (min-width: 800px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    /* use the media query to show a different image by hiding the smaller and showing the larger */
+    img.small {
+        display: none;
+    }
+    img.large {
+        display: inline-block;
+        width: 200px;
+        float: left;
+        margin: 10px;
+    }
+    /* set a max-wdth for your site*/
+    .container {
+        max-width: 1024px;
+        margin: 0 auto; /* this will centre the container div once the browser window is 
+        wider than the max width */
+    }
+}
